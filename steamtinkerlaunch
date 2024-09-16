@@ -26623,7 +26623,7 @@ function installFilesSteamDeck {
 }
 
 function steamdedeckt {
-	if [ -f "/etc/os-release" ] && grep -qE "bazzite|steam|holo|chimeria" "/etc/os-release"; then
+	if [ -f "/etc/os-release" ] && grep -qE "bazzite-deck|steam|holo|chimeria" "/etc/os-release"; then
 		ONSTEAMDECK=1
 
 		export STEAMDECKWASUPDATE=0
